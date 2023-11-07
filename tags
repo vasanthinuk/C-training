@@ -1,0 +1,246 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	enum/test.c	/^enum values{A='A',vasu };$/;"	e	enum:values	file:
+A	structures/static_structures.c	/^extern struct A$/;"	s	file:
+A	structures/test.c	/^struct A$/;"	s	file:
+A	structures/test1.c	/^union A$/;"	u	file:
+A	union/test.c	/^union A$/;"	u	file:
+DEBUG	condicompile/2.c	3;"	d	file:
+DEBUG	condicompile/conditional.c	2;"	d	file:
+Employee	file/fprintf1.c	/^struct Employee$/;"	s	file:
+Employee	file/fread.c	/^struct Employee$/;"	s	file:
+Employee	file/fscanf.c	/^struct Employee$/;"	s	file:
+Employee	file/fseek.c	/^struct Employee$/;"	s	file:
+Employee	file/ftell.c	/^struct Employee$/;"	s	file:
+Employee	file/fwrite.c	/^struct Employee$/;"	s	file:
+Employee	file/rewind.c	/^struct Employee$/;"	s	file:
+Employee	structures/employee_details.c	/^struct Employee$/;"	s	file:
+Employee	structures/employeedetails_functions.c	/^struct Employee$/;"	s	file:
+Employee	structures/employeedetails_pointers.c	/^struct Employee$/;"	s	file:
+Employee	union/employeedetails_pointers.c	/^union Employee$/;"	u	file:
+Employee	union/employeedetails_union.c	/^union Employee$/;"	u	file:
+MAX	arrays/pointer.c	3;"	d	file:
+MAX	arrays/program.c	3;"	d	file:
+MAX	condicompile/macro.c	7;"	d	file:
+MAX	file/wordcount_file.c	6;"	d	file:
+MAX	max.c	11;"	d	file:
+SUN	condicompile/string.c	3;"	d	file:
+Student	structures/studentdetails_pointers.c	/^struct Student$/;"	s	file:
+X	condicompile/ifdef.c	9;"	d	file:
+X	condicompile/local_macro.c	16;"	d	file:
+a	storage_classes/extern.c	/^int a = 10;$/;"	v
+a	storage_classes/static.c	/^static int a = 10;$/;"	v	file:
+a	storage_classes/test.c	/^static int a = 10;$/;"	v	file:
+a	structures/static_structures.c	/^	int a;$/;"	m	struct:A	file:
+a	structures/test.c	/^	int a;$/;"	m	struct:A	file:
+a	structures/test1.c	/^	int a ;$/;"	m	union:A	file:
+a	union/test.c	/^	int a;$/;"	m	union:A	file:
+add	add_fun.c	/^void add(int *a, int *b, int *c)$/;"	f
+addition	bitwise/add.c	/^unsigned int addition(unsigned int a, unsigned int b)$/;"	f
+b	storage_classes/extern.c	/^int b = 2;$/;"	v
+b	storage_classes/test.c	/^static char b ='A';$/;"	v	file:
+b	structures/static_structures.c	/^	char b[2];$/;"	m	struct:A	file:
+b	structures/test.c	/^	char b;$/;"	m	struct:A	file:
+b	structures/test1.c	/^	char b ;$/;"	m	union:A	file:
+b	union/test.c	/^	char b;$/;"	m	union:A	file:
+c	storage_classes/test.c	/^extern int c = 15;$/;"	v
+c	structures/test.c	/^	float c;$/;"	m	struct:A	file:
+c	union/test.c	/^	float c;$/;"	m	union:A	file:
+carry	bitwise/add.c	/^unsigned int carry = 0;$/;"	v
+char_print	strings/char_print1.c	/^void char_print(char *str)$/;"	f
+create	datastructures/slinked.c	/^struct node* create(int num)\/\/creating of a node to the linked list$/;"	f
+d	storage_classes/extern.c	/^extern int d = 15;$/;"	v
+d	storage_classes/test.c	/^float d = 12.4;$/;"	v
+data	datastructures/slinked.c	/^	int data;\/\/data storedcin node$/;"	m	struct:node	file:
+data	structures/singlelinkedlist.c	/^	int data;$/;"	m	struct:node	file:
+days	enum/days.c	/^enum days{mon,tue,wed,thu,fri,sat,sun};$/;"	g	file:
+display	datastructures/slinked.c	/^struct node* display(struct node* head)$/;"	f
+display	structures/employeedetails_functions.c	/^void display(struct Employee emp)$/;"	f
+display	structures/employeedetails_pointers.c	/^void display(struct Employee *emp)$/;"	f
+display	union/employeedetails_union.c	/^void display(union Employee emp)$/;"	f
+e	structures/test.c	/^}e = {10, 'A',23.6};$/;"	v	typeref:struct:A
+e	union/test.c	/^}e = {10, 'A',23.6};$/;"	v	typeref:union:A
+empId	structures/employeedetails_functions.c	/^	int empId;$/;"	m	struct:Employee	file:
+empId	structures/employeedetails_pointers.c	/^	int empId;$/;"	m	struct:Employee	file:
+empId	union/employeedetails_union.c	/^	int empId;$/;"	m	union:Employee	file:
+empName	structures/employeedetails_functions.c	/^	char empName[20];$/;"	m	struct:Employee	file:
+empName	structures/employeedetails_pointers.c	/^	char empName[20];$/;"	m	struct:Employee	file:
+empName	union/employeedetails_union.c	/^	char empName[20];$/;"	m	union:Employee	file:
+empSalary	structures/employeedetails_functions.c	/^	float empSalary;$/;"	m	struct:Employee	file:
+empSalary	structures/employeedetails_pointers.c	/^	float empSalary;$/;"	m	struct:Employee	file:
+empSalary	union/employeedetails_union.c	/^	float empSalary;$/;"	m	union:Employee	file:
+emp_gender	structures/employee_details.c	/^	char emp_gender[2];$/;"	m	struct:Employee	file:
+emp_id	structures/employee_details.c	/^	int emp_id;$/;"	m	struct:Employee	file:
+emp_name	structures/employee_details.c	/^	char emp_name[20];$/;"	m	struct:Employee	file:
+emp_salary	structures/employee_details.c	/^	float emp_salary;$/;"	m	struct:Employee	file:
+fri	enum/days.c	/^enum days{mon,tue,wed,thu,fri,sat,sun};$/;"	e	enum:days	file:
+fun	condicompile/local_macro.c	/^void fun()$/;"	f
+fun	conditional_statements/if.c	/^void fun(int x,int y)$/;"	f
+fun	storage_classes/auto.c	/^void fun()$/;"	f
+fun	storage_classes/static.c	/^void fun()$/;"	f
+fun	storage_classes/static_local.c	/^void fun()$/;"	f
+fun1	storage_classes/extern.c	/^void fun1()$/;"	f
+fun1	storage_classes/test.c	/^void fun1()$/;"	f
+fun2	storage_classes/extern.c	/^void fun2()$/;"	f
+fun2	storage_classes/test.c	/^void fun2()$/;"	f
+fun3	storage_classes/test.c	/^void fun3()$/;"	f
+fun4	storage_classes/test.c	/^void fun4()$/;"	f
+head	datastructures/slinked.c	/^struct node* head = NULL;\/\/node pointers$/;"	v	typeref:struct:node
+id	file/fprintf1.c	/^	int id;$/;"	m	struct:Employee	file:
+id	file/fread.c	/^	int id;$/;"	m	struct:Employee	file:
+id	file/fscanf.c	/^	int id;$/;"	m	struct:Employee	file:
+id	file/fseek.c	/^	int id;$/;"	m	struct:Employee	file:
+id	file/ftell.c	/^	int id;$/;"	m	struct:Employee	file:
+id	file/fwrite.c	/^	int id;$/;"	m	struct:Employee	file:
+id	file/rewind.c	/^	int id;$/;"	m	struct:Employee	file:
+id	structures/studentdetails_pointers.c	/^	int id;$/;"	m	struct:Student	file:
+id	union/employeedetails_pointers.c	/^	int id;$/;"	m	union:Employee	file:
+main	1.c	/^void main()$/;"	f
+main	1.s	/^main:$/;"	l
+main	add_fun.c	/^int main()$/;"	f
+main	arrays/2d.c	/^int main()$/;"	f
+main	arrays/pointer.c	/^int main()$/;"	f
+main	arrays/program.c	/^int main()$/;"	f
+main	basic_program.c	/^int main()$/;"	f
+main	bitwise/add.c	/^int main()$/;"	f
+main	bitwise/toggle_even.c	/^int main(void)$/;"	f
+main	bitwise/toggle_odd.c	/^int main(void)$/;"	f
+main	char.c	/^int main(void)$/;"	f
+main	charnum.c	/^int main(void)$/;"	f
+main	condicompile/2.c	/^int main()$/;"	f
+main	condicompile/conditional.c	/^int main()$/;"	f
+main	condicompile/conditional.s	/^main:$/;"	l
+main	condicompile/hello.c	/^int main()$/;"	f
+main	condicompile/hello.s	/^main:$/;"	l
+main	condicompile/ifdef.c	/^int main()$/;"	f
+main	condicompile/ifdef.s	/^main:$/;"	l
+main	condicompile/local_macro.c	/^int main()$/;"	f
+main	condicompile/macro.c	/^int main()$/;"	f
+main	condicompile/string.c	/^int main()$/;"	f
+main	condicompile/test.c	/^int main()$/;"	f
+main	conditional_statements/armstrong.c	/^int main()$/;"	f
+main	conditional_statements/countof_digits.c	/^int main()$/;"	f
+main	conditional_statements/fibonacci_series.c	/^int main()$/;"	f
+main	conditional_statements/for.c	/^int main()$/;"	f
+main	conditional_statements/if.c	/^int main()$/;"	f
+main	conditional_statements/matrix.c	/^int main()$/;"	f
+main	conditional_statements/nested_for.c	/^int main()$/;"	f
+main	conditional_statements/pyramid.c	/^int main()$/;"	f
+main	conditional_statements/reverse.c	/^int main()$/;"	f
+main	conditional_statements/sumof_digits.c	/^int main()$/;"	f
+main	conditional_statements/while.c	/^int main()$/;"	f
+main	conditional_statements/whileloop.c	/^int main()$/;"	f
+main	conversions.c	/^int main(void)$/;"	f
+main	datastructures/slinked.c	/^int main()$/;"	f
+main	datatype.c	/^int main(void)$/;"	f
+main	datatypes/1.c	/^int main()$/;"	f
+main	datatypes/character.c	/^int main()$/;"	f
+main	datatypes/integer.c	/^int main()$/;"	f
+main	datatypes/macro.c	/^int main(void) \/\/main function$/;"	f
+main	datatypes/macronotdefine.c	/^int main()$/;"	f
+main	endian.c	/^int main()$/;"	f
+main	enum/days.c	/^int main()$/;"	f
+main	enum/test.c	/^int main()$/;"	f
+main	file/fgetc.c	/^int main()$/;"	f
+main	file/fgets.c	/^int main()$/;"	f
+main	file/fprintf.c	/^int main()$/;"	f
+main	file/fprintf1.c	/^int main()$/;"	f
+main	file/fputc.c	/^int main()$/;"	f
+main	file/fputs.c	/^int main()$/;"	f
+main	file/fread.c	/^int main()$/;"	f
+main	file/fscanf.c	/^int main()$/;"	f
+main	file/fseek.c	/^int main()$/;"	f
+main	file/ftell.c	/^int main()$/;"	f
+main	file/fwrite.c	/^int main()$/;"	f
+main	file/rewind.c	/^int main()$/;"	f
+main	file/syscall_open.c	/^int main()$/;"	f
+main	file/wordcount_file.c	/^int main()$/;"	f
+main	float.c	/^int main(void)$/;"	f
+main	fputc.c	/^int main()$/;"	f
+main	hello.c	/^int main()$/;"	f
+main	max.c	/^int main(void)$/;"	f
+main	pointers/basic_pointer.c	/^int main()$/;"	f
+main	pointers/double_pointer.c	/^int main()$/;"	f
+main	pointers/double_pointer1.c	/^int main()$/;"	f
+main	pointers/pointer_address.c	/^int main()$/;"	f
+main	pointers/sizeof_pointer.c	/^int main()$/;"	f
+main	pointers/test.c	/^int main()$/;"	f
+main	pointers/test2.c	/^int main()$/;"	f
+main	printf.c	/^int main()$/;"	f
+main	schar.c	/^int main(void)$/;"	f
+main	size.c	/^int main(void)$/;"	f
+main	size.s	/^main:$/;"	l
+main	storage_classes/auto.c	/^int main()$/;"	f
+main	storage_classes/extern.c	/^int main()$/;"	f
+main	storage_classes/static.c	/^int main()$/;"	f
+main	storage_classes/static_local.c	/^int main()$/;"	f
+main	storage_classes/test.c	/^int main()$/;"	f
+main	string_test.c	/^int main()$/;"	f
+main	string_test1.c	/^int main()$/;"	f
+main	string_test2.c	/^int main()$/;"	f
+main	strings/char_print.c	/^int main()$/;"	f
+main	strings/char_print1.c	/^int main()$/;"	f
+main	strings/str_cmp.c	/^int main()$/;"	f
+main	strlen.c	/^int main()$/;"	f
+main	structures/employee_details.c	/^int main()$/;"	f
+main	structures/employeedetails_functions.c	/^int main()$/;"	f
+main	structures/employeedetails_pointers.c	/^int main()$/;"	f
+main	structures/singlelinkedlist.c	/^int main()$/;"	f
+main	structures/static_structures.c	/^int main()$/;"	f
+main	structures/studentdetails_pointers.c	/^int main()$/;"	f
+main	structures/test.c	/^int main()$/;"	f
+main	structures/test1.c	/^int main()$/;"	f
+main	swap_numbers.c	/^int main()$/;"	f
+main	typecast/1.c	/^int main()$/;"	f
+main	typecast/double_flaot.c	/^int main()$/;"	f
+main	typecast/double_float.c	/^int main()$/;"	f
+main	typecast/float_double.c	/^int main()$/;"	f
+main	typecast/float_int.c	/^int main()$/;"	f
+main	typecast/int_char.c	/^int main()$/;"	f
+main	typecast/int_float.c	/^int main(void)$/;"	f
+main	typecast/typecast.c	/^int main()$/;"	f
+main	union/employeedetails_pointers.c	/^int main()$/;"	f
+main	union/employeedetails_union.c	/^int main()$/;"	f
+main	union/test.c	/^int main()$/;"	f
+mon	enum/days.c	/^enum days{mon,tue,wed,thu,fri,sat,sun};$/;"	e	enum:days	file:
+mystrlen	strlen.c	/^int mystrlen(char* temp) $/;"	f
+name	file/fprintf1.c	/^	char name[20];$/;"	m	struct:Employee	file:
+name	file/fread.c	/^	char name[20];$/;"	m	struct:Employee	file:
+name	file/fscanf.c	/^	char name[20];$/;"	m	struct:Employee	file:
+name	file/fseek.c	/^	char name[20];$/;"	m	struct:Employee	file:
+name	file/ftell.c	/^	char name[20];$/;"	m	struct:Employee	file:
+name	file/fwrite.c	/^	char name[20];$/;"	m	struct:Employee	file:
+name	file/rewind.c	/^	char name[20];$/;"	m	struct:Employee	file:
+name	structures/studentdetails_pointers.c	/^	char name[20];$/;"	m	struct:Student	file:
+name	union/employeedetails_pointers.c	/^	char name[20];$/;"	m	union:Employee	file:
+next	datastructures/slinked.c	/^	struct node *next;\/\/pointer pointing to the next address$/;"	m	struct:node	typeref:struct:node::node	file:
+next	structures/singlelinkedlist.c	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	datastructures/slinked.c	/^struct node\/\/creating a node to single linked list$/;"	s	file:
+node	structures/singlelinkedlist.c	/^struct node$/;"	s	file:
+ph	structures/studentdetails_pointers.c	/^	int ph;$/;"	m	struct:Student	file:
+pi	datatypes/macro.c	/^float pi=3.14;$/;"	v
+printLinkedList	structures/singlelinkedlist.c	/^void printLinkedList(struct node *ptr)$/;"	f
+sal	file/fprintf1.c	/^	float sal;$/;"	m	struct:Employee	file:
+sal	file/fread.c	/^	float sal;$/;"	m	struct:Employee	file:
+sal	file/fscanf.c	/^	float sal;$/;"	m	struct:Employee	file:
+sal	file/fseek.c	/^	float sal;$/;"	m	struct:Employee	file:
+sal	file/ftell.c	/^	float sal;$/;"	m	struct:Employee	file:
+sal	file/fwrite.c	/^	float sal;$/;"	m	struct:Employee	file:
+sal	file/rewind.c	/^	float sal;$/;"	m	struct:Employee	file:
+sat	enum/days.c	/^enum days{mon,tue,wed,thu,fri,sat,sun};$/;"	e	enum:days	file:
+str_cmp	strings/str_cmp.c	/^int str_cmp(char *s1, char *s2)$/;"	f
+strlength	string_test1.c	/^int strlength(char *a)$/;"	f
+sun	enum/days.c	/^enum days{mon,tue,wed,thu,fri,sat,sun};$/;"	e	enum:days	file:
+swap_numbers	swap_numbers.c	/^void swap_numbers(int *a, int *b)$/;"	f
+temp	datastructures/slinked.c	/^struct node* temp = NULL;$/;"	v	typeref:struct:node
+temp1	datastructures/slinked.c	/^struct node* temp1 = NULL;$/;"	v	typeref:struct:node
+thu	enum/days.c	/^enum days{mon,tue,wed,thu,fri,sat,sun};$/;"	e	enum:days	file:
+tue	enum/days.c	/^enum days{mon,tue,wed,thu,fri,sat,sun};$/;"	e	enum:days	file:
+values	enum/test.c	/^enum values{A='A',vasu };$/;"	g	file:
+vasu	enum/test.c	/^enum values{A='A',vasu };$/;"	e	enum:values	file:
+wed	enum/days.c	/^enum days{mon,tue,wed,thu,fri,sat,sun};$/;"	e	enum:days	file:
+x	storage_classes/extern.c	/^int x = 13;$/;"	v
